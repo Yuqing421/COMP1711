@@ -1,0 +1,19 @@
+    1  ls
+    2  cat data2.txt
+    3  cat data1.txt
+    4  cat data1.txt data2.txt
+    5  ls
+    6  cat *.txt
+    7  grep "Beatles" *.txt
+    8  grep "Bowie" *.txt
+    9  grep "Eagles" *.txt
+   10  grep "Beatles" *.txt | cut -d "," -f 3
+   11  grep "Beatles" *.txt | cut -d "," -f 3,2
+   12  grep "Beatles" *.txt | cut -d "," -f 3 | sort
+   13  grep "Beatles" *.txt | cut -d "," -f 3 | sort > "beatles.txt"
+   14  cat beatles.txt
+   15  cat data*.txt | head -n 17
+   16  cat data*.txt | head -n 17 | tail -n 1
+   17  cat data*.txt | head -n 25 | tail -n 1
+   18  history
+   19  history > notes.txt
